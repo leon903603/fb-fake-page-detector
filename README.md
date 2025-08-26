@@ -20,11 +20,17 @@ Automated system to detect and track fake Facebook pages, focusing on advertisem
 ## 📂 專案結構 Project Structure
 ```
 project_root/
-│── main.py # 主程式入口 / Main controller
 │── config.py # 設定檔 / Configuration file
-│── facebook_scraper.py # Facebook 爬蟲模組 / Facebook crawler module
+│── converters.py # 轉換工具 / Data converters
 │── excel_utils.py # Excel 匯出工具 / Excel export utilities
-│── fb_pages.xlsx # 結果輸出 / Output result file
+│── main.py # 主程式入口 / Main controller
+│── requirements.txt # 專案依賴 / Dependencies
+│── scraper.py # 爬蟲模組 / Scraper module
+│── utils.py # 公用工具 / Utility functions
+│
+└── data/ # 輸出與暫存資料夾 / Data folder
+└── fb_pages.xlsx # 執行後產生的結果檔案 / Generated after running
+└── README.md # 專案說明文件 / Project documentation
 └── README.md # 專案說明文件 / Project documentation
 ```
 ---
@@ -34,15 +40,20 @@ project_root/
 ```bash
 git clone https://github.com/yourusername/fake-fb-detector.git
 cd fake-fb-detector
+```
 2. 安裝套件 Install Requirements
-bash
+```bash
 pip install -r requirements.txt
+```
 3. 執行程式 Run the Program
-bash
+```bash
 python main.py
+```
 📊 輸出範例 Output Example
 結果將存成 fb_pages.xlsx，包含：
 Results will be saved to fb_pages.xlsx, including:
+
+偵測月份
 
 偵測日期 Detection Date
 
@@ -50,8 +61,10 @@ Results will be saved to fb_pages.xlsx, including:
 
 粉專 ID Page ID
 
-網站網域 Website Domain
+粉專連結 Website Domain
 
-廣告活動狀態 Ad Activity Status
+廣告庫連結
 
-是否下架 Removal Status
+廣告情況 Ad Activity Status
+
+下架情況 Removal Status
