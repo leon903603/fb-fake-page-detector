@@ -42,7 +42,16 @@ cd fb-fake-page-detector
 ```bash
 pip install -r requirements.txt
 ```
-3. 執行程式 Run the Program
+3. 設定關鍵字 Configure Keywords
+打開 config.py，找到以下區塊，輸入你要追蹤的粉專關鍵字：
+# 要搜尋的粉專關鍵字，寫法舉例：
+# KEYWORDS = ['蝦皮詐騙', '抽iPhone', '免運']
+
+KEYWORDS = ['', '']   # ← 請修改這裡
+EXCEL_PATH = 'fb_pages.xlsx'      # 輸出檔案路徑，可自行調整
+SCROLL_TIMES = 5                  # 每個關鍵字搜尋頁面捲動次數
+
+4. 執行程式 Run the Program
 ```bash
 python main.py
 ```
