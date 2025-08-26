@@ -37,7 +37,7 @@ project_root/
 ## 🚀 快速開始 Getting Started
 1. 複製專案 Clone the Repository
 ```bash
-git clone https://github.com/yourusername/fake-fb-detector.git
+git clone https://github.com/leon903603/fake-fb-detector.git
 cd fake-fb-detector
 ```
 2. 安裝套件 Install Requirements
