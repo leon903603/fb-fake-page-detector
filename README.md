@@ -60,7 +60,8 @@ Results will be saved to `fb_pages.xlsx`, including:
 
 - 偵測月份 Detect Month  
 - 偵測日期 Detection Date  
-- 粉專名稱 Page Name  
+- 粉專名稱 Page Name
+- 個人帳號 ID Profile ID
 - 粉專 ID Page ID  
 - 粉專連結 Page URL  
 - 廣告庫連結 Ad Library URL  
