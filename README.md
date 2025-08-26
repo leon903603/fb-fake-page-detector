@@ -1,4 +1,4 @@
-# 假粉專偵測系統 Fake Facebook Page Detector
+# 偽冒粉專偵測系統 Fake Facebook Page Detector
 
 自動化系統，用於偵測與追蹤假冒 Facebook 粉絲專頁，特別著重於 **廣告行為分析**，因為投放廣告的粉專大概率與詐騙相關，可作為檢舉依據。  
 Automated system to detect and track fake Facebook pages, focusing on advertisement activity analysis as a strong indicator of potential fraud.  
@@ -20,6 +20,7 @@ Automated system to detect and track fake Facebook pages, focusing on advertisem
 ## 📂 專案結構 Project Structure
 ```
 project_root/
+└── README.md # 專案說明文件 / Project documentation
 │── config.py # 設定檔 / Configuration file
 │── converters.py # 轉換工具 / Data converters
 │── excel_utils.py # Excel 匯出工具 / Excel export utilities
@@ -27,10 +28,7 @@ project_root/
 │── requirements.txt # 專案依賴 / Dependencies
 │── scraper.py # 爬蟲模組 / Scraper module
 │── utils.py # 公用工具 / Utility functions
-│
-└── data/ # 輸出與暫存資料夾 / Data folder
 └── fb_pages.xlsx # 執行後產生的結果檔案 / Generated after running
-└── README.md # 專案說明文件 / Project documentation
 ```
 ---
 
