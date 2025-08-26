@@ -8,7 +8,7 @@ Automated system to detect and track fake Facebook pages, focusing on advertisem
 ## 📌 功能 Features
 - 🔍 關鍵字搜尋並爬取粉專資訊  
   Scrapes Facebook fan pages by keyword search.  
-- 🖼️ 收集粉專基本資料（名稱、ID、網址、大頭貼）  
+- 🖼️ 收集粉專基本資料（名稱、ID、網址）  
   Collects page metadata (name, ID, URL, profile picture).  
 - 📢 偵測並追蹤粉專廣告活動，作為詐騙判斷依據  
   Tracks and analyzes ad activity as a fraud indicator.  
@@ -18,6 +18,7 @@ Automated system to detect and track fake Facebook pages, focusing on advertisem
 ---
 
 ## 📂 專案結構 Project Structure
+```
 project_root/
 │── main.py # 主程式入口 / Main controller
 │── config.py # 設定檔 / Configuration file
@@ -25,7 +26,7 @@ project_root/
 │── excel_utils.py # Excel 匯出工具 / Excel export utilities
 │── fb_pages.xlsx # 結果輸出 / Output result file
 └── README.md # 專案說明文件 / Project documentation
-
+```
 ---
 
 ## 🚀 快速開始 Getting Started
