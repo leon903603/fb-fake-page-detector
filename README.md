@@ -48,22 +48,17 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
-##📊 輸出範例 Output Example
-結果將存成 fb_pages.xlsx，包含：
-Results will be saved to fb_pages.xlsx, including:
+---
+## 📊 輸出範例 Output Example
+結果將存成 `fb_pages.xlsx`，包含：  
+Results will be saved to `fb_pages.xlsx`, including:
 
-偵測月份 Detect Month
+- 偵測月份 Detect Month  
+- 偵測日期 Detection Date  
+- 粉專名稱 Page Name  
+- 粉專 ID Page ID  
+- 粉專連結 Page URL  
+- 廣告庫連結 Ad Library URL  
+- 廣告情況 Ad Activity Status  
+- 下架情況 Removal Status  
 
-偵測日期 Detection Date
-
-粉專名稱 Page Name
-
-粉專 ID Page ID
-
-粉專連結 Page URL
-
-廣告庫連結 Ad Library URL
-
-廣告情況 Ad Activity Status
-
-下架情況 Removal Status
