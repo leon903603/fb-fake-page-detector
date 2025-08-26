@@ -38,7 +38,7 @@ project_root/
 1. 複製專案 Clone the Repository
 ```bash
 git clone https://github.com/leon903603/fb-fake-page-detector.git
-cd fb-fake-page-detector
+cd fake-page-detector
 ```
 2. 安裝套件 Install Requirements
 ```bash
