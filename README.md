@@ -33,24 +33,23 @@ project_root/
 ---
 
 ## 🚀 快速開始 Getting Started
-1. 複製專案 Clone the Repository
+## 1. 複製專案 Clone the Repository
 ```bash
 git clone https://github.com/leon903603/fb-fake-page-detector.git
 cd fb-fake-page-detector
 ```
-2. 安裝套件 Install Requirements
+## 2. 安裝套件 Install Requirements
 ```bash
 pip install -r requirements.txt
 ```
-3. 設定關鍵字 Configure Keywords
+## 3. 設定關鍵字 Configure Keywords
 打開 config.py，找到以下區塊，輸入你要追蹤的粉專關鍵字：
 ```bash
 KEYWORDS = ['', '']   # ← 請修改這裡
 EXCEL_PATH = 'fb_pages.xlsx'      # 輸出檔案路徑，可自行調整
 SCROLL_TIMES = 5                  # 每個關鍵字搜尋頁面捲動次數
 ```
-
-5. 執行程式 Run the Program
+## 4. 執行程式 Run the Program
 ```bash
 python main.py
 ```
